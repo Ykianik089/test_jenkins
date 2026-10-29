@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ "$1" == "staging" ]; then
+    echo "Развертывание на STAGING окружении..."
+elif [ "$1" == "production" ]; then
+    echo "Развертывание на PRODUCTION окружении..."
+else
+    echo "Неизвестное окружение: $1"
+    exit 1
+fi

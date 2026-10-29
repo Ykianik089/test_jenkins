@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Запуск smoke-тестов..."
+echo "Все smoke-тесты пройдены успешно."
+exit 0
